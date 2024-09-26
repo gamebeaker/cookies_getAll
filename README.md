@@ -1,5 +1,7 @@
 # The problem:
 
+The problem is resolved: https://issues.chromium.org/issues/361862746
+
 Since chromium version 138.0.6613.0 there is a problem with chrome.cookies.get() and chrome.cookies.getAll()
 
 If cloudflare sets the cookie name: cf_clearance with a Partition Key Site an addon is unable to access this cookie.
